@@ -24,3 +24,11 @@ Abrir `index.html` en el navegador. No se requiere instalación: Bootstrap se ca
 ## Estado de integración
 
 Los perfiles y sus accesos están integrados en `develop`. La promoción de `develop` hacia `main` se deja intencionalmente pendiente para realizar la revisión final de forma manual.
+
+## Actualización del perfil de David
+
+- Rama de trabajo: `feature/update-david-profile`, creada desde `develop`.
+- Se reemplazó el avatar remoto de David por `assets/Davidphoto.png` en su perfil y en la tarjeta de inicio.
+- Se eliminó el botón y el enlace de LinkedIn de David; GitHub permanece disponible.
+- Destino de integración: `develop`. `main` no debe recibir commits directos ni publicaciones de esta actualización.
+- Revisión requerida: otro desarrollador debe validar la imagen, los enlaces y la visualización responsive antes de aprobar el Pull Request hacia `develop`.
